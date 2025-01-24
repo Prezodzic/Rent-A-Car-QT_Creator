@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form5</class>
+ <widget class="QMainWindow" name="Form5">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Güncel Kirada Olan Araç Listesi</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QTableWidget" name="araclisteWidget"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="kapatbuton">
+        <property name="text">
+         <string>Kapat</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>625</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArac_Kiralama_Bilgileri_Girisi">
+    <property name="title">
+     <string>Kirada Olan Arac Girisi</string>
+    </property>
+   </widget>
+   <addaction name="menuArac_Kiralama_Bilgileri_Girisi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

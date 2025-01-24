@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bul</class>
+ <widget class="QMainWindow" name="Bul">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>237</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="adlabel2">
+        <property name="text">
+         <string>Ad:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="adlineEdit2"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="telnolabel2">
+        <property name="text">
+         <string>Telefon No:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="telnolineEdit2"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="soyadlabel3">
+        <property name="text">
+         <string>Soyad:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="soyadlineEdit2"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="mesleklabel2">
+        <property name="text">
+         <string>Meslek:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="mesleklineEdit2"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="tckimliklabel2">
+        <property name="text">
+         <string>TC Kimlik No:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="tckimliklineEdit2"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="ehliyetsinifilabel2">
+        <property name="text">
+         <string>Ehliyet Sınfı:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="ehliyetsinifilineEdit2"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="dogumtarihilabel2">
+        <property name="text">
+         <string>Doğum Tarihi:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="dogumtarihilineEdit2"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="medenidurumulabel2">
+        <property name="text">
+         <string>Medeni Durumu:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="medenidurumulineEdit2"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="adreslabel2">
+        <property name="text">
+         <string>Adres:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="adreslineEdit2"/>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="egitimdurumulabel2">
+        <property name="text">
+         <string>Eğitim Durumu:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLineEdit" name="egitimdurumulineEdit2"/>
+      </item>
+      <item row="5" column="0" colspan="4">
+       <widget class="QPushButton" name="bulButton">
+        <property name="text">
+         <string>Bul</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>382</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAra">
+    <property name="title">
+     <string>Ara</string>
+    </property>
+   </widget>
+   <addaction name="menuAra"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>adlineEdit2</tabstop>
+  <tabstop>soyadlineEdit2</tabstop>
+  <tabstop>tckimliklineEdit2</tabstop>
+  <tabstop>dogumtarihilineEdit2</tabstop>
+  <tabstop>adreslineEdit2</tabstop>
+  <tabstop>telnolineEdit2</tabstop>
+  <tabstop>mesleklineEdit2</tabstop>
+  <tabstop>ehliyetsinifilineEdit2</tabstop>
+  <tabstop>medenidurumulineEdit2</tabstop>
+  <tabstop>egitimdurumulineEdit2</tabstop>
+  <tabstop>bulButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bul3</class>
+ <widget class="QMainWindow" name="Bul3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>631</width>
+    <height>267</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="2">
+       <widget class="QLabel" name="motorguculabel">
+        <property name="text">
+         <string>Motor Gücü:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="viteslineEdit"/>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLineEdit" name="sasinolineEdit"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="cekislabel">
+        <property name="text">
+         <string>Çekiş:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="uretimyililineEdit"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="viteslabel">
+        <property name="text">
+         <string>Vites:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="motornolabel">
+        <property name="text">
+         <string>Motor No:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLabel" name="kullanimdisimilabel">
+        <property name="text">
+         <string>Kullanım Dışı Mı?:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="markalabel">
+        <property name="text">
+         <string>Marka:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="motorhacmilineEdit"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="modellabel">
+        <property name="text">
+         <string>Model:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="markalineEdit"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="yakitturulabel">
+        <property name="text">
+         <string>Yakıt Türü:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLineEdit" name="renklineEdit"/>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLineEdit" name="motorguculineEdit"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="aracturulabel">
+        <property name="text">
+         <string>Araç Türü:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QLabel" name="gunlukkiralamabedelilabel">
+        <property name="text">
+         <string>Günlük Kiralama Bedeli:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="aracturulineEdit"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="motorhacmilabel">
+        <property name="text">
+         <string>Motor Hacmi:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="modellineEdit"/>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="kapilabel">
+        <property name="text">
+         <string>Kapı:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="uretimyililabel">
+        <property name="text">
+         <string>Üretim Yılı:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="yakitturulineEdit"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="kasatipilineEdit"/>
+      </item>
+      <item row="0" column="6">
+       <widget class="QLineEdit" name="motornolineEdit"/>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLineEdit" name="kapilineEdit"/>
+      </item>
+      <item row="2" column="6">
+       <widget class="QLineEdit" name="gunlukkiralamabedelilineEdit"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLineEdit" name="cekislineEdit"/>
+      </item>
+      <item row="6" column="0" colspan="7">
+       <widget class="QPushButton" name="pushButtonBuL">
+        <property name="text">
+         <string>Bul</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLabel" name="kasatipilabel">
+        <property name="text">
+         <string>Kasa Tipi:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLabel" name="kiradamilabel">
+        <property name="text">
+         <string>Kirada Mı?:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLabel" name="sasinolabel">
+        <property name="text">
+         <string>Şasi No:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="renklabel">
+        <property name="text">
+         <string>Renk:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QCheckBox" name="kiradamicheckBox">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="6">
+       <widget class="QCheckBox" name="kullanimdisimicheckBox">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>631</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAra">
+    <property name="title">
+     <string>Ara</string>
+    </property>
+   </widget>
+   <addaction name="menuAra"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>aracturulineEdit</tabstop>
+  <tabstop>markalineEdit</tabstop>
+  <tabstop>modellineEdit</tabstop>
+  <tabstop>uretimyililineEdit</tabstop>
+  <tabstop>yakitturulineEdit</tabstop>
+  <tabstop>viteslineEdit</tabstop>
+  <tabstop>motorguculineEdit</tabstop>
+  <tabstop>kasatipilineEdit</tabstop>
+  <tabstop>motorhacmilineEdit</tabstop>
+  <tabstop>cekislineEdit</tabstop>
+  <tabstop>kapilineEdit</tabstop>
+  <tabstop>renklineEdit</tabstop>
+  <tabstop>motornolineEdit</tabstop>
+  <tabstop>sasinolineEdit</tabstop>
+  <tabstop>gunlukkiralamabedelilineEdit</tabstop>
+  <tabstop>pushButtonBuL</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

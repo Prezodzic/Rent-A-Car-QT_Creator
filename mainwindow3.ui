@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form3</class>
+ <widget class="QMainWindow" name="Form3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0" colspan="2">
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="4">
+         <widget class="QComboBox" name="aracmarka_comboBox"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="id_label">
+          <property name="text">
+           <string>id:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="id_lineEdit">
+          <property name="enabled">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="QPushButton" name="yeni_pushButton">
+          <property name="text">
+           <string>Yeni</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLCDNumber" name="saat_lcdNumber"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLabel" name="aracmarka_label">
+          <property name="text">
+           <string>Araç Marka:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="musterisoyadi_comboBox"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLCDNumber" name="tarih_lcdNumber"/>
+        </item>
+        <item row="3" column="4">
+         <widget class="QLineEdit" name="kacgunkiralanacak_lineEdit"/>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="musterisoyadi_label">
+          <property name="text">
+           <string>Müşteri Soyadı:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="QComboBox" name="aracmodel_comboBox"/>
+        </item>
+        <item row="5" column="3">
+         <widget class="QLabel" name="yolculuknereye_label">
+          <property name="text">
+           <string>Yolculuk Nereye?:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="musteriadi_label">
+          <property name="text">
+           <string>Müşteri Adı:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="4">
+         <widget class="QLineEdit" name="yolculuknereye_lineEdit"/>
+        </item>
+        <item row="5" column="5">
+         <widget class="QPushButton" name="kapat_pushButton">
+          <property name="text">
+           <string>Kapat</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="5">
+         <widget class="QPushButton" name="sil_pushButton">
+          <property name="text">
+           <string>Sil</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="musteriadi_comboBox"/>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLabel" name="kacgunkiralanacak_label">
+          <property name="text">
+           <string>Kaç Gün Kiralanacak?:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLabel" name="aracmodel_label">
+          <property name="text">
+           <string>Araç Model:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="5">
+         <widget class="QPushButton" name="arabtn">
+          <property name="text">
+           <string>Ara</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="QTableWidget" name="akbg_tableWidget"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="kaydet_pushButton">
+        <property name="text">
+         <string>Kaydet</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="guncelle_pushButton">
+        <property name="text">
+         <string>Güncelle</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>774</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArac_Kiralama_Bilgileri_Girisi">
+    <property name="title">
+     <string>Arac Kiralama Bilgileri Girisi</string>
+    </property>
+   </widget>
+   <addaction name="menuArac_Kiralama_Bilgileri_Girisi"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>id_lineEdit</tabstop>
+  <tabstop>musteriadi_comboBox</tabstop>
+  <tabstop>musterisoyadi_comboBox</tabstop>
+  <tabstop>aracmarka_comboBox</tabstop>
+  <tabstop>aracmodel_comboBox</tabstop>
+  <tabstop>kacgunkiralanacak_lineEdit</tabstop>
+  <tabstop>yolculuknereye_lineEdit</tabstop>
+  <tabstop>yeni_pushButton</tabstop>
+  <tabstop>sil_pushButton</tabstop>
+  <tabstop>kapat_pushButton</tabstop>
+  <tabstop>kaydet_pushButton</tabstop>
+  <tabstop>akbg_tableWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
